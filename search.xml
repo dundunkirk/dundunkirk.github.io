@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试2</title>
-    <url>/2022/12/05/%E6%B5%8B%E8%AF%952/</url>
-    <content><![CDATA[<p>test2</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试1</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试1</title>
-    <url>/2022/12/05/%E6%B5%8B%E8%AF%951/</url>
-    <content><![CDATA[<p>test1</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试1</tag>
-        <tag>测试2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -42,11 +17,37 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Minecraft</title>
+    <url>/2022/12/06/Minecraft/</url>
+    <content><![CDATA[<h1 id="MineCraft-开服小白"><a href="#MineCraft-开服小白" class="headerlink" title="MineCraft 开服小白"></a>MineCraft 开服小白</h1><h1 id="前期工作"><a href="#前期工作" class="headerlink" title="前期工作"></a>前期工作</h1><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>java下载，java向下兼容，因此直接下载最新版本，直接下载到默认文件夹（C盘），环境变量暂未更改</p>
+<h2 id="SPIGOT"><a href="#SPIGOT" class="headerlink" title="SPIGOT"></a>SPIGOT</h2><p>SPIGOT <a href="https://getbukkit.org/download/spigot">https://getbukkit.org/download/spigot</a> 按照需要的版本下载即可</p>
+<h2 id="准备好存放服务器数据的文件夹"><a href="#准备好存放服务器数据的文件夹" class="headerlink" title="准备好存放服务器数据的文件夹"></a>准备好存放服务器数据的文件夹</h2><p>新建txt文档，保存为strat.bat文件便于启动</p>
+<p>java -Xms8G -Xmx8G -jar spigot-1.19.2.jar （文档内容）</p>
+<h2 id="启动start-bat"><a href="#启动start-bat" class="headerlink" title="启动start.bat"></a>启动start.bat</h2><p>会生成两个重要文件，一个是eula.txt（协议，将false改为true），另一个是server.properties（配置文件）</p>
+<h2 id="再次启动start-bat"><a href="#再次启动start-bat" class="headerlink" title="再次启动start.bat"></a>再次启动start.bat</h2><p>此时会生成地形，随机种子</p>
+<p>输入stop可以保存停止</p>
+<h2 id="修改服务器参数-server-properties"><a href="#修改服务器参数-server-properties" class="headerlink" title="修改服务器参数 server.properties"></a>修改服务器参数 server.properties</h2><p>MINECRAFT WIKI 中搜索server.properties</p>
+<p><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki?variant=zh">https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki?variant=zh</a></p>
+<p>镜像站 <a href="https://wiki.biligame.com/mc/Minecraft_Wiki">https://wiki.biligame.com/mc/Minecraft_Wiki</a></p>
+<h2 id="开启服务器"><a href="#开启服务器" class="headerlink" title="开启服务器"></a>开启服务器</h2><p>现在服务器已经开始啦</p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>让不同WIFI下、不同地区的人都能加入游戏</p>
+<h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>SAKURA FRP <a href="https://www.natfrp.com/">https://www.natfrp.com/</a></p>
+<h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>在SAKURA FRP网站中，点击 服务-软件下载-启动器-Windows安装程序</p>
+<p>新版本下下载的直接是exe文件，不需要自己解压等操作</p>
+<h2 id="进入软件"><a href="#进入软件" class="headerlink" title="进入软件"></a>进入软件</h2><h3 id="输入密钥"><a href="#输入密钥" class="headerlink" title="输入密钥"></a>输入密钥</h3><p>在SAKURA FRP网站中，点击 用户-用户信息，右下角一栏会出现密钥，将其输入至SAKURA FRP启动器中</p>
+<h3 id="创建隧道"><a href="#创建隧道" class="headerlink" title="创建隧道"></a>创建隧道</h3><p>新建隧道，选择进程名为java的进程</p>
+<blockquote>
+<p>如果没有出现java进程，是因为本地服务器没有打开，即start.bat</p>
+</blockquote>
+<h3 id="打开隧道"><a href="#打开隧道" class="headerlink" title="打开隧道"></a>打开隧道</h3><p>在日志中可以查看服务器地址，现在就可以进行游戏啦</p>
+]]></content>
       <categories>
-        <category>hello</category>
+        <category>🎮game</category>
       </categories>
       <tags>
-        <tag>hello</tag>
+        <tag>Minecraft</tag>
       </tags>
   </entry>
 </search>
