@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Minecraft</title>
+    <title>MineCraft 开服小白</title>
     <url>/2022/12/06/Minecraft/</url>
-    <content><![CDATA[<h1 id="MineCraft-开服小白"><a href="#MineCraft-开服小白" class="headerlink" title="MineCraft 开服小白"></a>MineCraft 开服小白</h1><h1 id="前期工作"><a href="#前期工作" class="headerlink" title="前期工作"></a>前期工作</h1><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>java下载，java向下兼容，因此直接下载最新版本，直接下载到默认文件夹（C盘），环境变量暂未更改</p>
+    <content><![CDATA[<h1 id="前期工作"><a href="#前期工作" class="headerlink" title="前期工作"></a>前期工作</h1><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>java下载，java向下兼容，因此直接下载最新版本，直接下载到默认文件夹（C盘），环境变量暂未更改</p>
 <h2 id="SPIGOT"><a href="#SPIGOT" class="headerlink" title="SPIGOT"></a>SPIGOT</h2><p>SPIGOT <a href="https://getbukkit.org/download/spigot">https://getbukkit.org/download/spigot</a> 按照需要的版本下载即可</p>
 <h2 id="准备好存放服务器数据的文件夹"><a href="#准备好存放服务器数据的文件夹" class="headerlink" title="准备好存放服务器数据的文件夹"></a>准备好存放服务器数据的文件夹</h2><p>新建txt文档，保存为strat.bat文件便于启动</p>
 <p>java -Xms8G -Xmx8G -jar spigot-1.19.2.jar （文档内容）</p>
