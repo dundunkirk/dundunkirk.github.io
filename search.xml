@@ -4,6 +4,8 @@
     <title>Hello World</title>
     <url>/2022/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -23,7 +25,9 @@
     <url>/2022/12/06/Minecraft/</url>
     <content><![CDATA[<h1 id="前期工作"><a href="#前期工作" class="headerlink" title="前期工作"></a>前期工作</h1><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>java下载，java向下兼容，因此直接下载最新版本，直接下载到默认文件夹（C盘），环境变量暂未更改</p>
 <h2 id="SPIGOT"><a href="#SPIGOT" class="headerlink" title="SPIGOT"></a>SPIGOT</h2><p>SPIGOT <a href="https://getbukkit.org/download/spigot">https://getbukkit.org/download/spigot</a> 按照需要的版本下载即可</p>
-<h2 id="准备好存放服务器数据的文件夹"><a href="#准备好存放服务器数据的文件夹" class="headerlink" title="准备好存放服务器数据的文件夹"></a>准备好存放服务器数据的文件夹</h2><p>新建txt文档，保存为strat.bat文件便于启动</p>
+<span id="more"></span>
+
+<h1 id="服务器文件准备"><a href="#服务器文件准备" class="headerlink" title="服务器文件准备"></a>服务器文件准备</h1><h2 id="准备好存放服务器数据的文件夹"><a href="#准备好存放服务器数据的文件夹" class="headerlink" title="准备好存放服务器数据的文件夹"></a>准备好存放服务器数据的文件夹</h2><p>新建txt文档，保存为strat.bat文件便于启动</p>
 <p>java -Xms8G -Xmx8G -jar spigot-1.19.2.jar （文档内容）</p>
 <h2 id="启动start-bat"><a href="#启动start-bat" class="headerlink" title="启动start.bat"></a>启动start.bat</h2><p>会生成两个重要文件，一个是eula.txt（协议，将false改为true），另一个是server.properties（配置文件）</p>
 <h2 id="再次启动start-bat"><a href="#再次启动start-bat" class="headerlink" title="再次启动start.bat"></a>再次启动start.bat</h2><p>此时会生成地形，随机种子</p>
@@ -44,7 +48,7 @@
 <h3 id="打开隧道"><a href="#打开隧道" class="headerlink" title="打开隧道"></a>打开隧道</h3><p>在日志中可以查看服务器地址，现在就可以进行游戏啦</p>
 ]]></content>
       <categories>
-        <category>🎮game</category>
+        <category>🎮 game</category>
       </categories>
       <tags>
         <tag>Minecraft</tag>
