@@ -1,0 +1,18 @@
+/* 自定义字体设置 - 覆盖全局字体 */
+/* 正文、标题和菜单使用 Inter（非等宽），文章内标题和代码使用 JetBrains Mono，中文使用霞鹜文楷（LXGW WenKai） */
+
+/* 使用 Inter 的元素：正文、标题、菜单等 */
+body,
+p, a, span, div, li, td, th,
+button, input, textarea, select,
+.logo a,
+#menu a {
+    font-family: 'Inter', 'LXGW WenKai', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 使用 JetBrains Mono 的元素：文章内标题和代码 */
+h1, h2, h3, h4, h5, h6,
+code, pre, kbd, samp {
+    font-family: 'JetBrains Mono', 'LXGW WenKai', 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
