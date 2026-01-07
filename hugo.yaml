@@ -2,3 +2,6 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Kun's Thoughts
 theme: PaperMod
+caches:
+  images:
+    dir: :cacheDir/images
